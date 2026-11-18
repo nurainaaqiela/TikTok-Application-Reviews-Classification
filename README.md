@@ -69,17 +69,17 @@ After preprocessing and filtering, the final dataset contained **324 records**, 
 
 ### Preprocessing Workflow
 
-![Data Preparation Workflow](images/data-preparation-workflow.png)
+![Data Preparation Workflow](data-preparation-workflow.png)
 
 ### Text Transformation Examples
 
 **Abbreviation Transformation**
 
-![Abbreviation Transformation](images/text-transformation-abbreviations.png)
+![Abbreviation Transformation](text-transformation-abbreviations.png)
 
 **Emoji Transformation**
 
-![Emoji Transformation](images/text-transformation-emojis.png)
+![Emoji Transformation](text-transformation-emojis.png)
 
 ---
 
@@ -96,7 +96,7 @@ The analysis focused on:
 ### Key Sentiment Findings
 
 <figure>
-  <img src="images/descriptive-analytics-dashboard.png" alt="Descriptive analytics dashboard" />
+  <img src="descriptive-analytics-dashboard.png" alt="Descriptive analytics dashboard" />
 </figure>
 
 The final dataset showed a clear difference between positive and negative opinions:
@@ -131,7 +131,7 @@ Cross-validation was used to evaluate and compare the classification performance
 | k-Nearest Neighbours (k-NN) | 88.88% |
 | Naive Bayes | 70.93% |
 
-![Classification Model Accuracy Comparison](images/model-accuracy-comparison.png)
+![Classification Model Accuracy Comparison](model-accuracy-comparison.png)
 
 ### Key Observation
 
@@ -148,7 +148,7 @@ Would the best-performing model maintain its classification performance when app
 To further examine its predictive capability, the Decision Tree model was tested using new data. The predicted sentiment classifications were compared against the actual sentiment labels to evaluate its performance.
 
 <figure>
-  <img src="images/decision-tree-testing-results.png" alt="Decision Tree new-data testing results" />
+  <img src="decision-tree-testing-results.png" alt="Decision Tree new-data testing results" />
 </figure>
 
 The model achieved **79.13% accuracy** on the new dataset.
